@@ -1,11 +1,18 @@
 ---
-home: true
-heroImage: /logo.png
-actionText: 快速开始 →
-actionLink: /guide/introduction
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-altActionText: 在线预览
-altActionLink: https://vben.vvbin.cn/
+hero:
+  name: "Vben Admin"
+  text: "一个开箱即用的前端框架"
+  tagline: My great project tagline
+  actions:
+    - theme: brand
+      text: 快速开始 →
+      link: /guide/introduction
+    - theme: alt
+      text: 在线预览
+      link: https://vben.vvbin.cn/
 
 features:
   - title: 💡 最新技术栈
